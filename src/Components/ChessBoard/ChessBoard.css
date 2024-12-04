@@ -7,14 +7,3 @@
     height: 700px;
     background-color: black;
 }
-
-#chessboard .tile {
-    width:87px;  
-}
-#chessboard .black-tile {
-background-color:#004474 ;
-}
-
-#chessboard .white-tile {
-background-color: #ebecd0;
-}
