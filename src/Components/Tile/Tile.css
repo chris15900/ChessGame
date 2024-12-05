@@ -3,6 +3,13 @@
     place-content: center;
     width:87px;  
 }
+.tile .chess-piece {
+    width:100px;
+    height:100px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:80px ;
+}
 .black-tile {
 background-color:#004474 ;
 }
@@ -12,4 +19,12 @@ background-color: #ebecd0;
 }
 .tile img {
     width: 90px;
+}
+
+.tile .chess-piece:hover {
+    cursor: grab;
+}
+
+.tile .chess-piece:active {
+    cursor : grabbing;
 }
